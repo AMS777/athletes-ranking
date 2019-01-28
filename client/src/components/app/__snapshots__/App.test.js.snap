@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "minHeight": "100vh",
+    }
+  }
+>
+  <nav
+    className="black"
+  >
+    <div
+      className="nav-wrapper"
+    >
+      <span
+        className="brand-logo center"
+      >
+        Athletes Ranking
+      </span>
+    </div>
+  </nav>
+  <main
+    className="container center"
+  >
+    <div
+      role="group"
+      style={
+        Object {
+          "outline": "none",
+        }
+      }
+      tabIndex="-1"
+    >
+      <h1
+        style={
+          Object {
+            "fontSize": "2em",
+          }
+        }
+      >
+        Athletes Ranking
+      </h1>
+      <p>
+        Loading...
+      </p>
+      <a
+        className="btn waves-effect waves-light black"
+        href="/athlete-form"
+        onClick={[Function]}
+      >
+        New athlete
+      </a>
+    </div>
+  </main>
+  <nav
+    className="black"
+  >
+    <div
+      className="nav-wrapper center"
+    >
+      <span>
+        © 2019 AMS
+      </span>
+    </div>
+  </nav>
+</div>
+`;

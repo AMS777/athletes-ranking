@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+Array [
+  <h1
+    style={
+      Object {
+        "fontSize": "2em",
+      }
+    }
+  >
+    Add athlete to the ranking
+  </h1>,
+  <form
+    className="container"
+    onSubmit={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <div>
+        <label
+          className="left"
+        >
+          Name
+        </label>
+        <input
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <div>
+        <label
+          className="left"
+        >
+          Sport
+        </label>
+        <select
+          name="sport"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <option />
+          <option
+            value="Muay Thai"
+          >
+            Muay Thai
+          </option>
+          <option
+            value="Athletics"
+          >
+            Athletics
+          </option>
+          <option
+            value="Football"
+          >
+            Football
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <strong>
+        Prestige Points:
+         
+        -
+      </strong>
+    </div>
+    <div>
+      <a
+        aria-current="page"
+        className="btn-flat waves-effect waves-light"
+        href="/"
+        onClick={[Function]}
+      >
+        Cancel
+      </a>
+      <button
+        className="btn waves-effect waves-light black"
+        type="submit"
+      >
+        Add athlete
+      </button>
+    </div>
+  </form>,
+]
+`;
+
+exports[`snapshot after selecting a sport 1`] = `
+Array [
+  <h1
+    style={
+      Object {
+        "fontSize": "2em",
+      }
+    }
+  >
+    Add athlete to the ranking
+  </h1>,
+  <form
+    className="container"
+    onSubmit={[Function]}
+  >
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <div>
+        <label
+          className="left"
+        >
+          Name
+        </label>
+        <input
+          name="name"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <div>
+        <label
+          className="left"
+        >
+          Sport
+        </label>
+        <select
+          name="sport"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <option />
+          <option
+            value="Muay Thai"
+          >
+            Muay Thai
+          </option>
+          <option
+            value="Athletics"
+          >
+            Athletics
+          </option>
+          <option
+            value="Football"
+          >
+            Football
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <div>
+        <label
+          className="left"
+        >
+          Olimpic Records
+        </label>
+        <input
+          name="olimpicRecords"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Olimpic Records"
+          type="number"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "margin": "2em",
+        }
+      }
+    >
+      <strong>
+        Prestige Points:
+         
+        0
+      </strong>
+    </div>
+    <div>
+      <a
+        aria-current="page"
+        className="btn-flat waves-effect waves-light"
+        href="/"
+        onClick={[Function]}
+      >
+        Cancel
+      </a>
+      <button
+        className="btn waves-effect waves-light black"
+        type="submit"
+      >
+        Add athlete
+      </button>
+    </div>
+  </form>,
+]
+`;

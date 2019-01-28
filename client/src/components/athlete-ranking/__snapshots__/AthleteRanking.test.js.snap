@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+Array [
+  <h1
+    style={
+      Object {
+        "fontSize": "2em",
+      }
+    }
+  >
+    Athletes Ranking
+  </h1>,
+  <p>
+    Loading...
+  </p>,
+  <a
+    className="btn waves-effect waves-light black"
+    href="/athlete-form"
+    onClick={[Function]}
+  >
+    New athlete
+  </a>,
+]
+`;
