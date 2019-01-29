@@ -121,3 +121,18 @@ To test components within the Redux store, two strategies are used:
 - export the component without the Redux' `connect()` wrapper:
 `/client/src/components/athlete-form/AthleteForm.js`
 
+## Development Environment
+
+Server and client may be run concurrently, both with reload on files change, with following script on the server directory:
+
+```
+npm run dev
+```
+
+## Deployment
+
+The project has scripts to automatically deploy on Heroku with Git:
+
+```
+/package.json: heroku-postbuild
+```

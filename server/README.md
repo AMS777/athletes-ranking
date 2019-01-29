@@ -7,6 +7,10 @@
 
 ## Available Scripts
 
+### `npm run dev`
+
+Run server and client concurrently, both with reload on files change.
+
 ### `node index`
 
 Runs the server in the development mode.<br>
