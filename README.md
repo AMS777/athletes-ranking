@@ -8,7 +8,7 @@ An athlete belongs to one sport (muay thai, athletics, football). A sport has sp
 
 ## Javascript Syntax
 
-This application includes Javascript syntax elements from ES2015 and ES2017, like destructuring assignments, shorthand property names, spread operator, trailing commans, async/await.
+This application includes Javascript syntax elements from ES2015 and ES2017, like destructuring assignments, shorthand property names, spread operator, trailing commas, async/await.
 
 ## Design Patterns
 
@@ -40,7 +40,7 @@ Can be found on the application at:
 /server/routes/athletesRoutes.js->app.post('/api/athletes'): sportFactory[req.body.sport]
 ```
 
-### Factory
+### Factory Design Pattern
 
 Design pattern to create an object of a family of objects with equal structure.
 
